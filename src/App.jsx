@@ -13,8 +13,8 @@ const App = () => {
     <ColorModeContext.Provider value={colorMode}> 
       <ThemeProvider theme={theme}>
         <CssBaseline/>
-      </ThemeProvider>
-        <div className="app">
+      
+        <div className="app" >
 
           <Sidebar />
           <main className='content'>
@@ -34,6 +34,7 @@ const App = () => {
             </Routes>
           </main>
         </div>
+      </ThemeProvider>
     </ColorModeContext.Provider>
   )
 }
