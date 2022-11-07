@@ -13,9 +13,7 @@ const App = () => {
     <ColorModeContext.Provider value={colorMode}> 
       <ThemeProvider theme={theme}>
         <CssBaseline/>
-      
         <div className="app" >
-
           <Sidebar />
           <main className='content'>
             <Topbar />
