@@ -1,6 +1,7 @@
 export {default as Topbar } from './global/Topbar'
 export {default as Sidebar} from './global/Sidebar'
 export {default as Dashboard} from './dashboard/Dashboard'
+export {default as Team} from './team/Team'
 // export {default as Invoices } from './scenes/invoices'
 // export {default as Contacts } from './scenes/contacts'
 // export {default as Bar } from './scenes/bar'
