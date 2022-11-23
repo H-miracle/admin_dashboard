@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import {ColorModeContext, useMode} from './theme'
 import { CssBaseline, ThemeProvider } from '@mui/material'
-import {Topbar, Sidebar, Dashboard, Team, Invoices, Contacts, Bar, Form, Line, Pie, FAQ, Geography, Calender }from './scenes'
+import {Topbar, Sidebar, Dashboard, Team, Invoices, Contacts, Bar, Form, Line, Pie, FAQ, Geography, Calendar }from './scenes'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -27,8 +27,8 @@ const App = () => {
               <Route  path='/pie' element={<Pie />}/>
               <Route  path='/line' element={<Line />}/>
               <Route  path='/faq' element={<FAQ />}/>
-              <Route  path='/geography' element={<Geography />}/>
-              <Route  path='/calender' element={<Calender />}/> */}
+              <Route  path='/geography' element={<Geography />}/>*/}
+              <Route  path='/calendar' element={<Calendar />}/> 
             </Routes>
           </main>
         </div>

@@ -49,10 +49,6 @@ const Sidebar = () => {
   return (
     <Box 
       sx={{
-        // '& .pro-sidebar': {
-        //   minWidth: '12rem !important',
-        //   width: '12rem'
-        // },
         
         '& .pro-sidebar-inner': {
           background: `${colors.primary[400]} !important`
@@ -82,7 +78,7 @@ const Sidebar = () => {
             style={{
               margin: '15px 0 15px 0',
               color: colors.grey[100],
-              
+            
             }}
           >
             {!isCollapsed && (
