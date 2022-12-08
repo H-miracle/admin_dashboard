@@ -49,6 +49,9 @@ const Sidebar = () => {
   return (
     <Box 
       sx={{
+        // '& .pro-sidebar': {
+        //   position: 'absolute'
+        // },
         
         '& .pro-sidebar-inner': {
           background: `${colors.primary[400]} !important`
