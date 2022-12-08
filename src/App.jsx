@@ -25,9 +25,9 @@ const App = () => {
               <Route  path='/form' element={<Form />}/>
               <Route  path='/faq' element={<FAQ />}/>
               <Route  path='/bar' element={<Bar />}/>
-              {/*<Route  path='/pie' element={<Pie />}/>
+              <Route  path='/pie' element={<Pie />}/>
               <Route  path='/line' element={<Line />}/>
-              <Route  path='/geography' element={<Geography />}/>*/}
+              <Route  path='/geography' element={<Geography />}/>
               <Route  path='/calendar' element={<Calendar />}/> 
             </Routes>
           </main>
